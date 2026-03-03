@@ -43,7 +43,7 @@ export const translations = {
           type: 'Live App',
           name: 'FmShop',
           desc: 'Shop-App für den Obst- und Gemüsehandel. Ermöglicht Kunden, frische Produkte direkt vom Erzeuger zu bestellen. Intuitive Produktsuche, Warenkorb und Bestellverfolgung.',
-          tech: ['Flutter', 'FileMaker', 'Isar', 'Bloc'],
+          tech: ['Flutter', 'FileMaker', 'Isar', 'Bloc', 'Firebase'],
         },
         {
           icon: '🚚',
@@ -111,7 +111,7 @@ export const translations = {
           type: 'Live App',
           name: 'FmShop',
           desc: 'Shop app for the fruit and vegetable trade. Customers can order fresh produce directly from the producer. Intuitive product search, cart, and order tracking.',
-          tech: ['Flutter', 'FileMaker', 'Isar', 'Bloc'],
+          tech: ['Flutter', 'FileMaker', 'Isar', 'Bloc', 'Firebase'],
         },
         {
           icon: '🚚',
