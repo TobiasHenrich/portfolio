@@ -1,0 +1,136 @@
+export const translations = {
+  de: {
+    nav: {
+      about: 'Über mich',
+      skills: 'Skills',
+      projects: 'Projekte',
+      contact: 'Kontakt',
+    },
+    hero: {
+      greeting: 'Hallo, ich bin',
+      name: 'Tobias Henrich',
+      tagline: 'Flutter Developer',
+      intro: 'Ich entwickle mobile Apps mit Flutter und Dart. Fokus auf saubere Architektur, großartige UX und wartbaren Code.',
+      cta: 'Meine Projekte',
+      contact: 'Kontakt aufnehmen',
+    },
+    about: {
+      title: 'Über mich',
+      p1: 'Ich bin Tobias, ein begeisterter Flutter-Developer aus St. Ingbert. Mobile App-Entwicklung ist meine Leidenschaft – ich liebe es, Ideen in funktionierende Apps zu verwandeln.',
+      p2: 'Seit mehreren Jahren entwickle ich Apps für verschiedene Branchen, von Logistik über E-Commerce bis hin zur Landwirtschaft. Dabei lege ich Wert auf performante, benutzerfreundliche Lösungen.',
+      p3: 'Wenn ich nicht gerade code, arbeite ich an neuen Projektideen oder optimiere meine bestehenden Apps.',
+      stat1: 'Jahre Erfahrung',
+      stat2: 'Enthusiast',
+      stat3: 'Leidenschaft',
+    },
+    skills: {
+      title: 'Skills',
+      items: [
+        { icon: '📱', name: 'Flutter', desc: 'Cross-Platform App Development mit Material Design & Cupertino Widgets' },
+        { icon: '🎯', name: 'Dart', desc: 'Clean Code, Async/Await, Streams, State Management' },
+        { icon: '🔥', name: 'Firebase', desc: 'Auth, Firestore, Cloud Functions, Push Notifications' },
+        { icon: '🐙', name: 'Git', desc: 'Version Control, Branching Strategies, GitHub Workflows' },
+        { icon: '🗄️', name: 'Backend', desc: 'REST APIs, Supabase, SQLite, Lokale Datenbanken' },
+        { icon: '🎨', name: 'UI/UX', desc: 'Responsive Design, Animationen, User-Centered Development' },
+      ],
+    },
+    projects: {
+      title: 'Projekte',
+      items: [
+        {
+          icon: '🛒',
+          type: 'Live App',
+          name: 'FmShop',
+          desc: 'Shop-App für den Obst- und Gemüsehandel. Ermöglicht Kunden, frische Produkte direkt vom Erzeuger zu bestellen. Intuitive Produktsuche, Warenkorb und Bestellverfolgung.',
+          tech: ['Flutter', 'Firebase', 'Stripe', 'Google Maps'],
+        },
+        {
+          icon: '🚚',
+          type: 'Live App',
+          name: 'FmTourenplaner',
+          desc: 'Logistik-App für den Obst- und Gemüsehandel. Optimiert Lieferrouten, verwaltet Touren und trackt Lieferungen in Echtzeit. Effiziente Planung für den täglichen Betrieb.',
+          tech: ['Flutter', 'Firebase', 'Maps SDK', 'Push'],
+        },
+        {
+          icon: '🐴',
+          type: 'In Entwicklung',
+          name: 'Horsemanager',
+          desc: 'App zur Verwaltung von Pferdehöfen. Pferdeprofile, Futterpläne, Termine, Reitstunden und Stallverwaltung in einer Anwendung. Derzeit in aktiver Entwicklung.',
+          tech: ['Flutter', 'Riverpod', 'Supabase', 'Calendar'],
+        },
+      ],
+    },
+    contact: {
+      title: 'Kontakt',
+      text: 'Du hast eine Idee oder ein Projekt? Schreib mir! Ich freue mich auf interessante Gespräche und neue Herausforderungen.',
+    },
+    footer: '© 2026 Tobias Henrich. Mit Flutter & Leidenschaft gebaut.',
+  },
+  en: {
+    nav: {
+      about: 'About',
+      skills: 'Skills',
+      projects: 'Projects',
+      contact: 'Contact',
+    },
+    hero: {
+      greeting: "Hi, I'm",
+      name: 'Tobias Henrich',
+      tagline: 'Flutter Developer',
+      intro: 'I build mobile apps with Flutter and Dart. Focused on clean architecture, great UX, and maintainable code.',
+      cta: 'View Projects',
+      contact: 'Get in Touch',
+    },
+    about: {
+      title: 'About Me',
+      p1: "I'm Tobias, a passionate Flutter developer from St. Ingbert, Germany. Mobile app development is my passion – I love turning ideas into working apps.",
+      p2: "For several years I've been developing apps for various industries, from logistics to e-commerce to agriculture. I focus on performant, user-friendly solutions.",
+      p3: "When I'm not coding, I'm working on new project ideas or improving my existing apps.",
+      stat1: 'Years Experience',
+      stat2: 'Enthusiast',
+      stat3: 'Passion',
+    },
+    skills: {
+      title: 'Skills',
+      items: [
+        { icon: '📱', name: 'Flutter', desc: 'Cross-platform app development with Material Design & Cupertino widgets' },
+        { icon: '🎯', name: 'Dart', desc: 'Clean code, async/await, streams, state management' },
+        { icon: '🔥', name: 'Firebase', desc: 'Auth, Firestore, Cloud Functions, push notifications' },
+        { icon: '🐙', name: 'Git', desc: 'Version control, branching strategies, GitHub workflows' },
+        { icon: '🗄️', name: 'Backend', desc: 'REST APIs, Supabase, SQLite, local databases' },
+        { icon: '🎨', name: 'UI/UX', desc: 'Responsive design, animations, user-centered development' },
+      ],
+    },
+    projects: {
+      title: 'Projects',
+      items: [
+        {
+          icon: '🛒',
+          type: 'Live App',
+          name: 'FmShop',
+          desc: 'Shop app for the fruit and vegetable trade. Customers can order fresh produce directly from the producer. Intuitive product search, cart, and order tracking.',
+          tech: ['Flutter', 'Firebase', 'Stripe', 'Google Maps'],
+        },
+        {
+          icon: '🚚',
+          type: 'Live App',
+          name: 'FmTourenplaner',
+          desc: 'Logistics app for the fruit and vegetable trade. Optimizes delivery routes, manages tours, and tracks deliveries in real-time. Efficient planning for daily operations.',
+          tech: ['Flutter', 'Firebase', 'Maps SDK', 'Push'],
+        },
+        {
+          icon: '🐴',
+          type: 'In Development',
+          name: 'Horsemanager',
+          desc: 'App for managing horse farms. Horse profiles, feeding plans, appointments, riding lessons, and stable management in one app. Currently in active development.',
+          tech: ['Flutter', 'Riverpod', 'Supabase', 'Calendar'],
+        },
+      ],
+    },
+    contact: {
+      title: 'Contact',
+      text: "Have an idea or a project? Let's talk! I'm always open to interesting conversations and new challenges.",
+    },
+    footer: '© 2026 Tobias Henrich. Built with Flutter & passion.',
+  },
+} as const;
